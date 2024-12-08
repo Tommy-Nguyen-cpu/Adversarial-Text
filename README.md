@@ -1,2 +1,7 @@
 # Text-to-Adversarial
-Converting text into adversarial noise, which can then be decoded back into text.
+## Proposal
+Given a desired text to encrypt, is it possible to generate a system that can both encode text into an image and decode the text from the image? Moreover, is it possible for the text to serve as adversarial noise targeting a specific class?
+
+## TODOS:
+1. Implement encoder. Pipeline idea: Text -> Text encoder -> Zero-Padding -> Zero-Padded Text encoding + Image
+2. Decoding in-progress brainstorming
