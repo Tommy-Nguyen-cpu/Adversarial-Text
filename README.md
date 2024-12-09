@@ -5,3 +5,4 @@ Given a desired text to encrypt, is it possible to generate a system that can bo
 ## TODOS:
 1. Implement encoder. Pipeline idea: Text -> Text encoder -> Zero-Padding -> Zero-Padded Text encoding + Image
 2. Decoding in-progress brainstorming
+     2.1. How will we unnormalize the data when decoding?
